@@ -1,0 +1,254 @@
+[
+  {
+    "description": "    FeaturePage where the users can login to their accounts",
+    "keyword": "Feature",
+    "name": "Login Page",
+    "line": 1,
+    "id": "login-page",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-page;succes-login",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Succes Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "A user enters to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "A user enters the username \"standard_user\" and password \"secret_sauce\"",
+            "result": {
+              "status": "failed",
+              "duration": 7000000,
+              "error_message": "ReferenceError: password1 is not defined\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress\\integration\\login.feature:119:26)\n    at Context.resolveAndRunStepDefinition (https://www.saucedemo.com/__cypress/tests?p=cypress\\integration\\login.feature:10590:29)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress\\integration\\login.feature:9911:35)\nFrom previous event:\n    at Context.thenFn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:156244:63)\n    at Context.then (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:156696:21)\n    at Context.<anonymous> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:173141:19)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:171997:15\nFrom previous event:\n    at CommandQueue.runCommand (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:171976:8)\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:172119:19)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:172148:16\nFrom previous event:\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:172119:39)\nFrom previous event:\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:186506:77\nFrom previous event:\n    at CommandQueue.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:186501:21)\n    at CommandQueue.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:172182:15)\n    at $Cy.cy.<computed> [as then] (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:173180:18)\n    at Context.runnable.fn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:173398:19)\n    at callFn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:125619:21)\n    at Test.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:125606:7)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180282:30\nFrom previous event:\n    at Object.onRunnableRun (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180267:19)\n    at $Cypress.action (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:169637:28)\n    at Test.Runnable.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:177963:13)\n    at Runner.../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126278:10)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126404:12\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126187:14)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126197:7\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126099:14)\n    at Hook.<anonymous> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126160:7)\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180180:24)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180209:13\nFrom previous event:\n    at onNext (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180206:59)\n    at done (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:125559:5)\n    at callFn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:125642:7)\n    at Hook.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:125606:7)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180282:30\nFrom previous event:\n    at Object.onRunnableRun (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180267:19)\n    at $Cypress.action (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:169637:28)\n    at Hook.Runnable.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:177963:13)\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126121:10)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126165:5\n    at timeslice (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:120091:27)"
+            },
+            "embeddings": [
+              {
+                "mime_type": "image/png"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "A user click on the login button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "A user will be logged in",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-page;locked-user",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Locked User",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "A user enters to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "A user enters the username \"locked_out_user\" and password \"secret_sauce\"",
+            "result": {
+              "status": "failed",
+              "error_message": "ReferenceError: password1 is not defined\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress\\integration\\login.feature:119:26)\n    at Context.resolveAndRunStepDefinition (https://www.saucedemo.com/__cypress/tests?p=cypress\\integration\\login.feature:10590:29)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress\\integration\\login.feature:9911:35)\nFrom previous event:\n    at Context.thenFn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:156244:63)\n    at Context.then (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:156696:21)\n    at Context.<anonymous> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:173141:19)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:171997:15\nFrom previous event:\n    at CommandQueue.runCommand (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:171976:8)\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:172119:19)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:172148:16\nFrom previous event:\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:172119:39)\nFrom previous event:\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:186506:77\nFrom previous event:\n    at CommandQueue.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:186501:21)\n    at CommandQueue.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:172182:15)\n    at $Cy.cy.<computed> [as then] (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:173180:18)\n    at Context.runnable.fn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:173398:19)\n    at callFn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:125619:21)\n    at Test.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:125606:7)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180282:30\nFrom previous event:\n    at Object.onRunnableRun (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180267:19)\n    at $Cypress.action (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:169637:28)\n    at Test.Runnable.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:177963:13)\n    at Runner.../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126278:10)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126404:12\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126187:14)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126197:7\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126099:14)\n    at Hook.<anonymous> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126160:7)\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180180:24)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180209:13\nFrom previous event:\n    at onNext (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180206:59)\n    at done (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:125559:5)\n    at callFn (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:125642:7)\n    at Hook.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:125606:7)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180282:30\nFrom previous event:\n    at Object.onRunnableRun (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:180267:19)\n    at $Cypress.action (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:169637:28)\n    at Hook.Runnable.run (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:177963:13)\n    at next (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126121:10)\n    at https://www.saucedemo.com/__cypress/runner/cypress_runner.js:126165:5\n    at timeslice (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:120091:27)"
+            },
+            "embeddings": [
+              {
+                "mime_type": "image/png"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "A user click on the login button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "The error message \"Epic sadface: Sorry, this user has been locked out.\" is displayed",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-page;incorrect-user-login",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Incorrect User Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "A user enters to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 217000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "test-user",
+                      "secret_sauce"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 26,
+            "name": "A user enters incorrect credentials",
+            "result": {
+              "status": "passed",
+              "duration": 570000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "A user click on the login button",
+            "result": {
+              "status": "passed",
+              "duration": 97000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "The error message \"Epic sadface: Username and password do not match any user in this service\" is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-page;incorrect-password-login",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Incorrect Password Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "A user enters to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "standard_user",
+                      "testPassword"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 33,
+            "name": "A user enters incorrect credentials",
+            "result": {
+              "status": "passed",
+              "duration": 643000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "A user click on the login button",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "The error message \"Epic sadface: Username and password do not match any user in this service\" is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

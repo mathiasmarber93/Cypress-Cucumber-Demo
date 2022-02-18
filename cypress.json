@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://www.saucedemo.com/",
+    "chromeWebSecurity": false,
+    "testFiles": "**/*.feature",
+    "embeddedScreenshots": true,
+    "screenshotsFolder": "images"
+}
